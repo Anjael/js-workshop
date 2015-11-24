@@ -20,12 +20,26 @@ greeting();
 // Define the number the computer's "thinking" of.
 var compNumber = 5;
 
-// Ask the user for a guess
-console.log("I'm thinking of a number between 1 and 10");
-var guess = prompt("Take a guess:");
+// Let's put the code for one round inside a function so we can play many times.
+function playRound(){
+	// Ask the user for a guess
+	console.log("I'm thinking of a number between 1 and 10");
+	var guess = prompt("Take a guess:");
 
-// We compare the user's guess to the computer's number
-var result = guess == compNumber;
+	// We compare the user's guess to the computer's number
+	var result = guess == compNumber;
 
-// Show the result
-console.log("Have you won? " + result);
+	if (result == true) {
+		console.log("Correct! You are very good at this.");
+	}
+	else {
+		if (guess > compNumber) {
+			console.log("Nope! Lower.");
+		}
+		else if (guess < compNumber) {
+			console.log("Nope! Higher.");
+		}
+	}
+}
+
+playRound();
