@@ -24,6 +24,8 @@ var compNumber = 5;
 console.log("I'm thinking of a number between 1 and 10");
 var guess = prompt("Take a guess:");
 
+// We compare the user's guess to the computer's number
 var result = guess == compNumber;
 
+// Show the result
 console.log("Have you won? " + result);
