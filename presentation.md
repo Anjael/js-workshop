@@ -135,9 +135,54 @@ A gentle push into programming
 
 ---
 
+# JavaScript, the weird parts
 
+- When you mix different value types, JS automatically converts types to make sense of it. It doesn't meant it will make sense to a human.
+- Try these:
+
+```javascript
+true + 2        // What does this even mean?
+"5" + 1         // The string '5' is different to the number 5, but JavaScript don't care!
+"7" - 3         // Guess what's going to happen. What? Why?
+"Hello" / 42    // NaN means you just went metaphysical.
+```
+
+- Just to be safe: don't mix apples and oranges (until you know what you're doing).
 
 ---
+
+# Variables
+
+- Remember values by giving them a name.
+
+```javascript
+var name = "Mauro";
+var yearOfBirth = 1989;
+// 'var' is a keyword, a special word for JS. It says 'we are about to define a variable'.
+// The '=' operator means assignment of a value to a variable. 
+// Don't confuse with the '==' operator, which means comparison.
+```
+
+- Variables behave **exactly** the same as values.
+
+```javascript
+var age = 2015 - yearOfBirth;
+console.log("Hello, " + name + ". You are " + age + "years old.");
+```
+
 ---
+
+>You should imagine variables as tentacles, rather than boxes. They do not contain values; they grasp them—two variables can refer to the same value.
+-- Marijn Haverbeke, "Eloquent JavaScript"
+
 ---
+
+# Let's save our program!
+
+- Console vs. running a program.
+- Expression: a piece of code that returns a value.
+- Statement: a 'full sentence' of code. I doesn't return a value, but it changes the state of your program.
+^- Our code so far was "in the air", it disappears when we refresh. Not really a program.
+^-
+
 ---
