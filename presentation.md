@@ -20,7 +20,7 @@ A gentle push into programming
 
 - Mauro Gestoso. Pronounced however you like.
 - From Buenos Aires, Argentina.
-- Geeky person. Enjoys sci-fi novels, cycling and cups of tea.
+- Geeky person. Enjoys sci-fi novels, Indian food and cups of tea.
 - Self-taught programmer. Makes things for fun. Definitely **not** an expert.
 - Works at MadLab.
 
@@ -42,12 +42,14 @@ A gentle push into programming
 - Camputers are only as smart as the code we write for them.
 - Programming is about taking big problems and breaking them into small, more manageable ones.
 
+^- Facebook example: how do you program friendship?
+
 ---
 
 # Why JavaScript?
 
 - Programming languages are just tools. Hundreds of different ways of doing the same thing.
-- JavaScript is the language of the Web. It makes websites interactive. It's **everywhere**. Examples: Gmail, [ElevatorJS](http://tholman.com/elevator.js/), [P5](http://p5js.org/examples/)
+- JavaScript is the language of the Web. It makes websites interactive. It's **everywhere**. Random examples: web apps, [ElevatorJS](http://tholman.com/elevator.js/), [P5](http://p5js.org/examples/)
 - Popularity, it's expanding outside the web. People are using it for apps, games, art, robots, drones, etc.
 - Similarly written to other popular languages. Easier to switch later on.
 
@@ -114,7 +116,7 @@ A gentle push into programming
 ```javascript
 "Hello, I'm a string."
 'I am also a string. I cannot use apostrophes with single quotation marks.'
-"But with escape characters I can do whatever I want.\nQuotation mark for days! \"\"\"\"\""
+"But with escape characters I can do whatever I want.\nQuotation marks for days! \"\"\"\"\""
 "You can concatenate strings" + ", which means adding them together."
 ```
 
@@ -133,6 +135,9 @@ A gentle push into programming
 4 <= 4          // And this?
 ```
 
+^
+- Why not use text? Text is imprecise, can be misinterpreted.
+- Is this shirt grey?
 ---
 
 # JavaScript, the weird parts
@@ -156,16 +161,16 @@ true + 2        // What does this even mean?
 - Remember values by giving them a name.
 
 ```javascript
-var name = "Mauro";
-var yearOfBirth = 1989;
 // 'var' is a keyword, a special word for JS. It says 'we are about to define a variable'.
+var name = "Mauro";
 // The '=' operator means assignment of a value to a variable. 
-// Don't confuse with the '==' operator, which means comparison.
+var yearOfBirth = 1989;
 ```
 
 - Variables behave **exactly** the same as values.
 
 ```javascript
+// Don't confuse with the '==' operator, which means comparison.
 var age = 2015 - yearOfBirth;
 console.log("Hello, " + name + ". You are " + age + "years old.");
 ```
@@ -175,14 +180,108 @@ console.log("Hello, " + name + ". You are " + age + "years old.");
 >You should imagine variables as tentacles, rather than boxes. They do not contain values; they grasp them—two variables can refer to the same value.
 -- Marijn Haverbeke, "Eloquent JavaScript"
 
+^
+- Variables don't own values, they just point to them.
+- Assign a variable to another variable, then change it.
+
 ---
 
 # Let's save our program!
 
 - Console vs. running a program.
 - Expression: a piece of code that returns a value.
-- Statement: a 'full sentence' of code. I doesn't return a value, but it changes the state of your program.
+- Statement: a 'full sentence' of code. I doesn't have to return a value (it can), but it changes the state of your program. It carries meaning.
+
 ^- Our code so far was "in the air", it disappears when we refresh. Not really a program.
-^-
+^- Explain workflow: edit, save, refresh.
+^- Explain comments
 
 ---
+
+# Functions
+
+- A series of instructions encapsulated into one. Give them a name and use it as many times as you want.
+- Remember to call them!
+- Functions can do 2 things:
+    + Return a value
+    + Change the state of the program
+- Arguments: inputs to our function (we can have zero, one or many).
+
+^- Recipe analogy. Boil water example.
+- Go home function analogy.
+- Make a greeting function.
+- Make an average function.
+
+---
+
+# JavaScript's own functions
+
+- We've seen one already:
+
+```javascript
+// console.log shows values to the user
+console.log("I'm logging stuff into the console!");  
+```
+
+- User input functions:
+
+```javascript
+// 'prompt' asks the user to input a value, saves it as text
+var name = prompt("What's your name?");
+// 'confirm' asks the user for a boolean value
+var hungry = confirm("Are you hungry?");
+```
+
+^-Stop to make v0.0 of the game.
+
+---
+
+# Making our program smarter
+
+- So far our game runs in a straight line. That's boring.
+- What are we missing?
+    + Ability to make decisions.
+    + Ability to do things many times automatically.
+
+---
+
+# Conditionals
+
+- If a certain condition is met, we do something. If not (else), we do somethign different.
+- Fork in the road. Our program's path splits, some pieces of code get ignored.
+
+```javascript
+var hungry = confirm("Are you hungry?");
+if (hungry == true) {
+    console.log("Me too! Let's go grab a slice of pizza.")
+}
+else {
+    console.log("Stay here while I go get an entire pizza just for myself.")
+}
+```
+
+---
+
+# Nesting conditionals
+
+- We can put conditions inside conditions to make more complex decisions:
+
+```javascript
+var hungry = confirm("Are you hungry?");
+if (hungry == true) {
+    var likesPizza = confirm("Do you like pizza?");
+    if (likesPizza == true) {
+        console.log("Pizza place around the corner. NOW.");
+    }
+    else {
+        console.log("You monster!");
+    }
+}
+else {
+    console.log("Come watch me eat an entire pizza!");
+}
+```
+
+---
+
+
