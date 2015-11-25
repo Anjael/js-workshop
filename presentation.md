@@ -215,7 +215,7 @@ console.log("Hello, " + name + ". You are " + age + "years old.");
 
 # Functions
 
-- A series of instructions encapsulated into one. Give them a name and use it as many times as you want.
+- A series of instructions wrapped inside a value. Give them a name and use it as many times as you want.
 - Remember to call them!
 - Functions can do 2 things:
     + Return a value
@@ -344,10 +344,10 @@ console.log("Launch!");
 
 - Make more stuff! Become fluent in the basics of JS.
     + Make "Rock, Papers, Scissors", "Hangman" or a text adventure.
-    + [Codecademy]()
+    + [Codecademy](https://www.codecademy.com/)
 - Expand your JS knowledge: learn about arrays and objects.
     + Make a simple app to solve a common problem.
-    + Book: Eloquent JavaScript, very thorough.
+    + Book: [Eloquent JavaScript](http://eloquentjavascript.net/), very thorough.
 
 ---
 
@@ -355,10 +355,10 @@ console.log("Launch!");
 
 - Learn some HTML and CSS and start making websites interactive.
     + Make a web application (calculator, to do lists, address book)
-    + Codecademy and FreeCodeCamp
+    + Codecademy and [FreeCodeCamp](http://www.freecodecamp.com/)
 - Experiment and play. Find a library and expand what JS can do.
-    + P5 for animations, art and games.
-    + Daniel Shiffman videos and books <--- Brilliant
+    + [P5](http://p5js.org/) for animations, art and games.
+    + Daniel Shiffman [YouTube channel](https://www.youtube.com/user/shiffman/playlists?sort=dd&shelf_id=14&view=50) and [books](http://shiffman.net/) <--- Brilliant
 
 ---
 
