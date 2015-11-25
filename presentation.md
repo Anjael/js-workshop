@@ -40,6 +40,7 @@ A gentle push into programming
 - Not-for-profit grassroots digital innovation organisation.
 - Courses, workshops, events, community groups on technology, arts and making.
 - Two spaces: Northern Quarter and Salford. Projects all around Greater Manchester.
+- [madlab.org.uk](http://madlab.org.uk)
 
 
 ---
