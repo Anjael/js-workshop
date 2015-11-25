@@ -4,6 +4,8 @@ slidenumbers: true
 
 A gentle push into programming
 
+![inline](http://3.bp.blogspot.com/-PTty3CfTGnA/TpZOEjTQ_WI/AAAAAAAAAeo/KeKt_D5X2xo/s1600/js.jpg)
+
 ---
 
 # Goals of this workshop
@@ -16,6 +18,8 @@ A gentle push into programming
 
 ---
 
+![left](buddha.png)
+
 # A bit about me
 
 - Mauro Gestoso. Pronounced however you like.
@@ -24,14 +28,19 @@ A gentle push into programming
 - Self-taught programmer. Makes things for fun. Definitely **not** an expert.
 - Works at MadLab.
 
+<--- That's me learning JavaScript through meditation.
+
 ---
+
+![left fit 75%](madlab-logo.png)
 
 # A bit about MadLab
 
 - Manchester Digital Laboratory
 - Not-for-profit grassroots digital innovation organisation.
 - Courses, workshops, events, community groups on technology, arts and making.
-- Two spaces: Northern Quarter and Salford.
+- Two spaces: Northern Quarter and Salford. Projects all around Greater Manchester.
+
 
 ---
 
@@ -61,8 +70,14 @@ A gentle push into programming
 - Your computer already has everything you need: 
     - A plain text editor to write the code (Notepad, TextEdit).
     - A web browser to run and view the code (Chrome, Firefox, Safari).
-- Download project template and slides from:
-    - [madlab.org.uk/workshops/make-a-game-with-javascript](#)
+
+---
+
+# Download the empty project
+
+[https://github.com/maurogestoso/js-workshop](https://github.com/maurogestoso/js-workshop)
+
+![inline fit](github.png)
 
 ---
 
@@ -281,6 +296,69 @@ else {
     console.log("Come watch me eat an entire pizza!");
 }
 ```
+
+---
+
+# 'while' loops
+
+- Repeat a block of code over an over again while a condition is met.
+- Remember:
+    + Change the state of the program inside the loop.
+    + Think about the "exit condition". Avoid infinite loops.
+
+```javascript
+var counter = 10;
+while (counter > 0) {
+    console.log(counter);
+    counter = counter - 1;
+}
+console.log("Launch!");
+```
+
+---
+
+# 'for' loops
+
+- Repeat a block of code a predefined amount of times.
+
+```javascript
+for (var counter = 10; counter > 0; counter = counter - 1) {
+    console.log(counter);
+}
+console.log("Launch!");
+```
+
+---
+
+# while vs. for
+
+- In programming there are many different ways of doing the same things.
+- Generally interchangeable.
+- Rule of thumb:
+    + When amount of repetition is known: for loop.
+    + When amount of repetition is unknown: while loop.
+
+---
+
+# Next steps (I)
+
+- Make more stuff! Become fluent in the basics of JS.
+    + Make "Rock, Papers, Scissors", "Hangman" or a text adventure.
+    + [Codecademy]()
+- Expand your JS knowledge: learn about arrays and objects.
+    + Make a simple app to solve a common problem.
+    + Book: Eloquent JavaScript, very thorough.
+
+---
+
+# Next steps (II)
+
+- Learn some HTML and CSS and start making websites interactive.
+    + Make a web application (calculator, to do lists, address book)
+    + Codecademy and FreeCodeCamp
+- Experiment and play. Find a library and expand what JS can do.
+    + P5 for animations, art and games.
+    + Daniel Shiffman videos and books <--- Brilliant
 
 ---
 
