@@ -357,10 +357,14 @@ console.log("Launch!");
 - Learn some HTML and CSS and start making websites interactive.
     + Make a web application (calculator, to do lists, address book)
     + Codecademy and [FreeCodeCamp](http://www.freecodecamp.com/)
-- Experiment and play. Find a library and expand what JS can do.
+- Experiment and play. Find a library and expand what plain JS can do.
     + [P5](http://p5js.org/) for animations, art and games.
     + Daniel Shiffman [YouTube channel](https://www.youtube.com/user/shiffman/playlists?sort=dd&shelf_id=14&view=50) and [books](http://shiffman.net/) <--- Brilliant
 
 ---
+
+![original](space.jpg)
+
+# Thank you!
 
 
