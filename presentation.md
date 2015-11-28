@@ -24,7 +24,7 @@ A gentle push into programming
 
 - Mauro Gestoso. Pronounced however you like.
 - From Buenos Aires, Argentina.
-- Geeky person. Enjoys sci-fi novels, Indian food and cups of tea.
+- Geeky person.
 - Self-taught programmer. Makes things for fun. Definitely **not** an expert.
 - Works at MadLab.
 
@@ -77,6 +77,8 @@ A gentle push into programming
 # Download the empty project
 
 [https://github.com/maurogestoso/js-workshop](https://github.com/maurogestoso/js-workshop)
+or
+[https://goo.gl/hACAAy](https://goo.gl/hACAAy)
 
 ![inline fit](github.png)
 
@@ -341,24 +343,33 @@ console.log("Launch!");
 
 ---
 
-# Next steps (I)
+# What do I do now? (I)
 
+- Now you are **dangerous** with a laptop and a WiFi connection!
 - Make more stuff! Become fluent in the basics of JS.
     + Make "Rock, Papers, Scissors", "Hangman" or a text adventure.
-    + [Codecademy](https://www.codecademy.com/)
-- Expand your JS knowledge: learn about arrays and objects.
-    + Make a simple app to solve a common problem.
-    + Book: [Eloquent JavaScript](http://eloquentjavascript.net/), very thorough.
+    + [Codecademy](https://www.codecademy.com/): interactive tutorials, good to learn from scratch but try to leave quickly!
+
 
 ---
 
-# Next steps (II)
+# What do I do now? (II)
 
-- Learn some HTML and CSS and start making websites interactive.
-    + Make a web application (calculator, to do lists, address book)
-    + Codecademy and [FreeCodeCamp](http://www.freecodecamp.com/)
-- Experiment and play. Find a library and expand what plain JS can do.
-    + [P5](http://p5js.org/) for animations, art and games.
+- Expand your JS knowledge: learn about arrays and objects.
+    + Make a simple app to solve a common problem.
+    + [Eloquent JavaScript](http://eloquentjavascript.net/): challenging but very thorough.
+
+- Learn some HTML and CSS and start making interactive websites.
+    + Make a website for a friend or an application (calculator, to do lists, address book)
+    + [FreeCodeCamp](http://www.freecodecamp.com/): great curriculum and community.
+
+
+---
+
+# What do I do now? (III)
+
+- Into hardware and electronics? Get an Arduino or a Raspberry Pi. Learning Python, Java or Processing should be easy for you now.
+- Get creative and play with [P5.js](http://p5js.org/), expand what JS can do.
     + Daniel Shiffman [YouTube channel](https://www.youtube.com/user/shiffman/playlists?sort=dd&shelf_id=14&view=50) and [books](http://shiffman.net/) <--- Brilliant
 
 ---
@@ -366,5 +377,10 @@ console.log("Launch!");
 ![original](space.jpg)
 
 # Thank you!
+You can email me any questions or feedback at:
+
+mauro@madlab.org.uk
+
+I'll be happy to help out a fellow programmer :)
 
 
